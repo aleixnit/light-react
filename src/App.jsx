@@ -28,14 +28,14 @@ function Light() {
       <img src={statusLight === "on" ? LightOnImg : LightOffImg} />
       <div>
         <button
-          style={{ display: statusLight === "on" ? "none" : "block" }}
+          style={{ display: statusLight === "on" ? "none" : "inline" }}
           onClick={apagarEncender}
         >
           Turn On
         </button>
         <button
           onClick={apagarEncender}
-          style={{ display: statusLight === "off" ? "none" : "block" }}
+          style={{ display: statusLight === "off" ? "none" : "inline" }}
         >
           Turn Off
         </button>
